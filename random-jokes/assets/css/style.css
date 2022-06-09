@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  min-width: 320px;
+  font-family: "Open Sans", sans-serif;
+  background: hsl(210, 36%, 96%);
+  color: hsl(209, 61%, 16%);
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+
+.container {
+  width: 90vw;
+  max-width: 60em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header-container {
+  height: auto;
+  margin-top: 20px;
+}
+
+.switch-lng{
+  cursor: pointer;
+}
+
+.main {
+  width: 100%;
+  height: calc(100vh - 120px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageHero {
+  display: block;
+  margin: 0 auto;
+}
+
+.content {
+  margin-top: 1rem;
+  color: hsl(210, 22%, 49%);
+  font-size: 1.5rem;
+}
+
+.play {
+  margin: 0 auto;
+  text-transform: uppercase;
+  background: #49a6e9;
+  color: #fff;
+  padding: 0.375rem 0.75rem;
+  letter-spacing: 0.25rem;
+  display: block;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  border: 2px solid #49a6e9;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+}
+
+.play:hover {
+  color: #49a6e9;
+  background: hsl(205, 86%, 17%);
+}
+
+.textJoke{
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  font-size: 0.875rem;
+  margin-top: 2rem;
+  color: hsl(210, 22%, 49%);
+  font-size: 1.5rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 40px);
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 5px 20px;
+  font-size: 20px;
+}
+
+.footer-data {
+  width: 156px;
+  color: black;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 2;
+  display: flex;
+  justify-content: space-between;
+ }
+
+.github {
+  transition: .5s;
+  color: black;
+  text-decoration: none;
+}
+
+.github:hover {
+  color: #bdae82; 
+}
+
+.rss {
+  width: 135px;
+  height: 50px;
+  filter: invert(100%);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../svg/rss.svg");
+  transition: .5s;
+}
+
+.rss:hover {
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+  contrast(87%);
+}
+

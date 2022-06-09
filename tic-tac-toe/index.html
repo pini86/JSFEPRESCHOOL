@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-tac-toe</title>
+    <link rel="icon" href="./assets/img/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header"> 
+            <div class="header-container">  
+                <h1 class="game-name">Tic - Tac - Toe</h1>  
+            </div>
+        </header>
+        <main class="main">
+            <div class="main-container">
+                <div class="table">
+                    <div class="cell" id="0" onclick="move(0, 'X')"></div>
+                    <div class="cell" id="1" onclick="move(1, 'X')"></div>
+                    <div class="cell" id="2" onclick="move(2, 'X')"></div>
+                    <div class="cell" id="3" onclick="move(3, 'X')"></div>
+                    <div class="cell" id="4" onclick="move(4, 'X')"></div>
+                    <div class="cell" id="5" onclick="move(5, 'X')"></div>
+                    <div class="cell" id="6" onclick="move(6, 'X')"></div>
+                    <div class="cell" id="7" onclick="move(7, 'X')"></div>
+                    <div class="cell" id="8" onclick="move(8, 'X')"></div>
+                  </div>
+                <div class="score">
+                    <ul class="scoreList">
+                        <li>Last 10 games:</li>
+                        <li class="game"></li>
+                        <li class="game"></li>
+                        <li class="game"></li>
+                        <li class="game"></li>
+                        <li class="game"></li>
+                        <li class="game"></li>
+                        <li class="game"></li>
+                        <li class="game"></li>
+                        <li class="game"></li>
+                        <li class="game"></li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer-container">
+              <div class="footer-data">
+                <div><span class="copyright">©</span></div>
+                <div><span class="year">2022</span></div>
+                <div><a class="github" href="https://github.com/pini86">github</a></div>        
+              </div>
+              <a class="rss" href="https://rs.school/js-stage0/"></a>
+            </div>
+        </footer>
+    </div>
+        <script  src="./index.js"></script>
+</body>
+</html>
